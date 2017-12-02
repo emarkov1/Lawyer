@@ -1,0 +1,5 @@
+#folder zips
+/zip
+
+#zip files
+*.zip

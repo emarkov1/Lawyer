@@ -1,0 +1,222 @@
+/* CSS Document */
+
+body {
+	color: #7e8287;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+a.navbar-brand {
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bolder;
+}
+a.navbar-brand span {
+	color: #23466a;
+}
+
+.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.navbar {
+	background-color: #4c85bf;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default {
+	border: none;
+}
+.header-slogan {
+	background: white url(../images/main.jpg) center center no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding: 212px 0;
+}
+.header-slogan h1 {
+	font-size: 58px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.header-slogan h2 {
+	font-size: 30px;
+	padding-top: 40px;
+}
+.header-slogan p {
+	font-size: 18px;
+}
+.header-slogan button {
+	border-radius: 0;
+	background-color: #cfc91d;
+	border: none;
+	padding: 10px 30px;
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+}
+.header img.skobka {
+	margin: 50px 0;
+	padding-top: 50px;
+	
+}
+/* ABOUT ME */
+
+.about {
+	text-align: center;
+	line-height: 2;
+	padding: 0 20px;
+	margin: 100px 0 30px;
+}
+.about-block {
+	box-sizing: border-box;
+	text-align: center;
+	border-left: 1px solid #d9dbdb;
+	padding: 40px;
+	margin: 40px 0;
+}
+.about-block:first-child {
+	border-left: none;
+}
+.about h2, .service h2, .mywork h2, .contact h2 {
+	text-transform: uppercase;
+	color: #02918c;
+	font-size: 46px;
+	font-weight: bold;
+}
+.about-block h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.about-block p {
+	font-size: 11px;
+}
+.about h2:after, .service h2:after, .mywork h2:after, .contact h2:after {
+	content: "";
+	background-image: url(../images/ico-line.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 180px;
+	display: block;
+	margin: 20px auto;
+}
+.about p span {
+	font-weight: bold;
+	font-size: 23px;
+}
+.about p {
+	font-size: 16px;
+}
+.content1 {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+/* SERVICES*/
+
+.service-wrap {
+	padding: 30px 0 0;
+}
+.service-block {
+	margin: 20px 0;
+	font-size: 12px;
+}
+.service {
+	background-color: #f0f0e8;
+}
+.service h2:after {
+	margin: 20px 0;
+}
+.service h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.service-pictures {
+	background: white url(../images/bg-services.jpg) center center no-repeat;
+	overflow: hidden;
+}
+/* My WORK */
+
+.mywork, .contact {
+	text-align: center;
+	padding: 30px 10px;
+}
+/* MAIL */
+
+.mail {
+	background-color: #0b0b0b;
+	padding: 30px 20px;
+}
+.form-control1 input[type="text"], .form-control1 textarea {
+	text-align: center;
+	background-color: #0b0b0b;
+	color: white;
+	border: none;
+	border-bottom: 1px solid #898989;
+	display: block;
+	margin: 20px auto;
+	padding: 5px;
+}
+/* FOOTER */
+
+form {
+    text-align: center;
+}
+
+.form-control1 textarea {
+	width: 70%;
+}
+.form-control1 .form-name {
+	width: 50%;
+}
+.form-control1 input[type="submit"] {
+	background-color: #F0F700;
+	border: none;
+	color: black;
+	margin: 0 auto;
+	padding: 10px 65px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0 10px;
+}
+
+
+@media (max-width: 470px) {
+	.header-slogan { padding: 20px 0; }
+	.header-slogan h2 { font-size: 20px}	
+	.header-slogan h1 { font-size: 30px}	
+	.header-slogan p { font-size: 12px}		
+	.header img.skobka {margin: 20px 0;}
+	
+	.about {margin: 20px 0 10px;}
+	.about h2, .service h2, .mywork h2, .contact h2 { font-size:24px;}
+	.about-block  {margin: 5px 0; padding: 5px 10px;}
+} 
+
+@media (max-width: 770px) {
+	.header-slogan { padding: 20px 0; }
+	.header-slogan h2 { font-size: 20px}	
+	.header-slogan h1 { font-size: 30px}	
+	.header-slogan p { font-size: 12px}		
+	.header img.skobka {margin: 20px 0;}
+	
+	.about {margin: 20px 0 10px;}
+	.about h2, .service h2, .mywork h2, .contact h2 { font-size:24px;}
+	.about-block  {margin: 5px 0; padding: 5px 10px;}
+} 
+
+@media (max-width: 1200px) {
+	.service-wrap {padding: 10px 0 0;}
+	.service-block {margin: 5px 0;}
+} 
